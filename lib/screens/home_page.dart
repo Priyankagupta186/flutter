@@ -9,13 +9,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('second day'),
-        backgroundColor: Colors.purple,
+        title: Text('Learning App'),
+        backgroundColor: Colors.blue,
        // centerTitle: Text(''),
       ),
       body: Center(
         child: Container(
-          child: Text("welcome to $days days of $name"),
+          child: Text("Home page"),
           //we can also write days in{$days} but since we have only one character so we are not using
         ),
       ),
